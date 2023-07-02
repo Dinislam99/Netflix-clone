@@ -1,0 +1,101 @@
+.auth {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../public/images/hero\ .jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        background-color: rgba(0, 0, 0, 0.5)
+    }
+}
+
+.nav {
+    padding: 20px 48px;
+}
+
+.logo {
+    height: 3rem;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.inner {
+    background-color: black;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 4rem;
+    margin-top: 0.5rem;
+    /* text-align: center; */
+    width: 100%;
+    border-radius: 6px
+}
+
+@media (min-width: 1024px) {
+    .inner {
+        width: 40%;
+        max-width: 28rem;
+    }
+}
+
+.title {
+    color: white;
+    margin-bottom: 32px;
+    font-size: 2.25rem;
+    /* 36px */
+    line-height: 2.5rem;
+    /* 40px */
+    font-weight: 600;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.btn {
+    background-color: rgb(200, 45, 45);
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 40px;
+    transition: 0.2;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: brown;
+}
+
+.p {
+    color: rgb(115 115 115);
+    margin-top: 48px;
+}
+
+.p span{
+    color: white;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.p span:hover {
+    text-decoration: underline;
+}
